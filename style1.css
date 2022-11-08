@@ -1,0 +1,103 @@
+body
+{
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(tło.webp);
+    padding-top: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#contener
+{
+    width:80%;
+    margin: 0 auto;
+}
+#baner{
+    height: 10%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    word-spacing: normal;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: 'Silkscreen', cursive; 
+}
+td{
+    text-align:center;
+    font-weight: bold;
+    width:20%;
+    height:70%;
+    padding-bottom: 5px;
+}
+table{
+    margin: 0 auto;
+}
+.zdjecia td{
+    text-align: center;
+}
+#prawy{
+    background-color: rgba(29, 17, 17, 0.753);
+    width:65%;
+    float:right;
+    height:70%;
+    margin: auto;
+    border: dashed 6px rgb(0, 0, 0);
+    font-family: 'Silkscreen', cursive;
+    font-size: 20px;
+}
+#glewy{
+    text-align: left; 
+}
+#lewy{
+    width:30%;
+    float:left;
+    height:40%;
+    text-align: center; 
+    font-family: 'Silkscreen', cursive;
+}
+#wynik{
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
+input[type="button"]
+{
+    background-color: rgb(0, 0, 0);
+    height : 45px;
+    font-weight:bold ;
+    color:rgb(255, 255, 255) ;
+    border: dashed 5px rgb(0, 0, 0) ;
+    font-family: 'Silkscreen', cursive;
+}
+input[type="number"]
+{
+    width:40px;
+    margin: auto;
+    text-align: center;
+    float:right;
+}
+#aa
+{
+    text-align:center;
+    margin:auto;
+}
+.tyt{
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    letter-spacing: -1px;
+}
+.obrazek{
+    height: 80%;
+    width:80%;
+    border: dashed 5px rgb(0, 0, 0);
+}
+#stopka{
+    height: 10%;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    clear:both;
+    font-family: 'Silkscreen', cursive;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
